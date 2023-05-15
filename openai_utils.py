@@ -3,6 +3,7 @@ import requests
 import shutil
 
 import openai
+openai.api_key_path = None
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
